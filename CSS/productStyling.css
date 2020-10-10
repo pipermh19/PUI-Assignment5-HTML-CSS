@@ -1,22 +1,27 @@
-#originalBanner-desktop{
+.productBanner-desktop{
     display: flex;
     align-items: center;
     height: 60vh;
     justify-content: flex-end;
-    background-image: url("../images/originalBanner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     width: 100%;
 }
-#originalContent{
+#originalBanner{
+    background-image: url("../images/originalBanner.jpg");
+}
+#GFBanner{
+    background-image: url("../images/originalGFBanner.jpg");
+}
+.productContent{
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-#originalImageContainer{
+.productImageContainer{
     display: flex;
     flex-direction: column;
     height: auto;
@@ -24,7 +29,7 @@
     margin-right: 2rem;
     width: 50%;
 }
-#originalImage{
+.productImage{
     box-shadow: 5px 8px 9px #e8e8e8a1;
     width: 40%;
 }
@@ -42,7 +47,7 @@
     display: flex;
     justify-content: flex-end;
 }
-#positionSmallImage{
+.positionSmallImage{
     display: flex;
     margin-top: 1rem;
     justify-content: space-between;
@@ -58,27 +63,27 @@
 #originalImage4{
     margin-right: 0;
 }
-#originalVerbageContainer{
+.productVerbageContainer{
     display: flex;
     justify-content: flex-start;
     margin-left: 2rem;
     width: 50%;
 }
-#originalTitle{
+.productTitle{
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0;
 }
-#originalPositionContainer{
+.productPositionContainer{
     display: flex;
     flex-direction: column;
     width: 60%;
 }
-#pastryQtyLabel{
+.inputLabel{
     font-weight: 700;
     font-size: 1.2rem;
 }
-#formPositionContainer{
+#qtyPositionContainer{
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
@@ -86,6 +91,12 @@
 select{
     font-size: 1.2rem;
     width: 40%;
+}
+#glazePositionContainer{
+    margin: 1rem auto;
+}
+#glazeType{
+    height: 32px;
 }
 #qtySubmitButton{
     width: 30%;
