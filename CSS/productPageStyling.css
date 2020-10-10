@@ -39,8 +39,8 @@
     width: 276px;
 }
 .productCard.isDisabled:hover{
-    color: #454545;
     cursor: not-allowed;
+    color: #454545;
     background-color: #f9f9f9;
 }
 /* image on card dimensions */
