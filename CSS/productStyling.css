@@ -1,3 +1,6 @@
+/* Universal styling for all product pages */
+
+/* top banner */
 .productBanner-desktop{
     display: flex;
     align-items: center;
@@ -9,18 +12,22 @@
     position: relative;
     width: 100%;
 }
+/* original top banner sets img */
 #originalBanner{
     background-image: url("../images/originalBanner.jpg");
 }
+/* original top banner sets img */
 #GFBanner{
     background-image: url("../images/originalGFBanner.jpg");
 }
+/* main body container for product */
 .productContent{
     display: flex;
     flex-direction: row;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+/* main image container for product */
 .productImageContainer{
     display: flex;
     flex-direction: column;
@@ -29,7 +36,7 @@
     margin-right: 2rem;
     width: 50%;
 }
-.productImage{
+.productImage {
     box-shadow: 5px 8px 9px #e8e8e8a1;
     width: 40%;
 }
@@ -47,12 +54,14 @@
     display: flex;
     justify-content: flex-end;
 }
+/* container for small images of product */
 .positionSmallImage{
     display: flex;
     margin-top: 1rem;
     justify-content: space-between;
     width: 40%;
 }
+/* small images sizing */
 .miniImage{
     box-shadow: 5px 8px 9px #e8e8e8a1;
     width: 30%;
@@ -63,11 +72,15 @@
 #originalImage4{
     margin-right: 0;
 }
+/* written content container */
 .productVerbageContainer{
     display: flex;
     justify-content: flex-start;
     margin-left: 2rem;
     width: 50%;
+}
+.ingredientsLabel{
+    margin-bottom: 0;
 }
 .productTitle{
     font-size: 2rem;
@@ -79,6 +92,7 @@
     flex-direction: column;
     width: 60%;
 }
+/* input label */
 .inputLabel{
     font-weight: 700;
     font-size: 1.2rem;
@@ -88,6 +102,7 @@
     justify-content: space-between;
     margin-top: 1rem;
 }
+/* select input */
 select{
     font-size: 1.2rem;
     width: 40%;
@@ -98,6 +113,7 @@ select{
 #glazeType{
     height: 32px;
 }
+/* add to cart button */
 #qtySubmitButton{
     width: 30%;
     height: 2rem;

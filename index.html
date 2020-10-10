@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Bun Bun Bake Shop</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
     <link rel="stylesheet" href="CSS/mainStructure.css">
     <link rel="stylesheet" href="CSS/homePageStyling.css" class="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -12,7 +13,10 @@
 <div id="topNav-desktop">
     <div id="topNavContent">
         <div id="topNavLogo">
-            <a href="#" class="topNavLink" id="logo"><i class="fas fa-birthday-cake"></i>BUN BUN BAKE SHOP</a>
+            <a href="#" class="topNavLink" id="logo">
+                <img src="images/logoCupcake.png" alt="Image of cupcake" id="websiteLogo">
+                BUN BUN BAKE SHOP
+            </a>
         </div>
         <div id="topNavLinks">
             <a href="#" class="topNavLink active" id="homePage">HOME</a>
@@ -60,13 +64,21 @@
 </article>
 <!-- Bottom Nav -->
 <div id="bottomNav">
-    <div class="bottomNavContainer" id="bottomMain">
-        <a href="index.html" class="bottomLink" id="homePageBottom">Home</a>
-        <a href="productListPage.html" class="bottomLink active" id="shopBottom">Shop</a>
+    <div id="btmNavCredit">
+        <div class="bottomNavContainer" id="photoCred">
+            <p id="photoCredWords">Photos by Vojtech Okenka, David Jakab, Gustavo Fring from Pexels </p>
+        </div>
     </div>
-    <div class="bottomNavContainer" id="products">
-        <a href="original.html" class="bottomLink" id="productOriginalBottom">Original</a>
-        <a href="originalGF.html" class="bottomLink" id="productGFBottom">Original GF</a>
+
+    <div id="btmNavMenu">
+        <div class="bottomNavContainer" id="bottomMain">
+            <a href="index.html" class="bottomLink" id="homePageBottom">Home</a>
+            <a href="productListPage.html" class="bottomLink active" id="shopBottom">Shop</a>
+        </div>
+        <div class="bottomNavContainer" id="products">
+            <a href="original.html" class="bottomLink" id="productOriginalBottom">Original</a>
+            <a href="originalGF.html" class="bottomLink" id="productGFBottom">Original GF</a>
+        </div>
     </div>
 </div>
 
