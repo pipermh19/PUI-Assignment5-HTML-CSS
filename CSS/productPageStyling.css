@@ -38,6 +38,11 @@
     margin: 20px;
     width: 276px;
 }
+.productCard.isDisabled:hover{
+    color: #454545;
+    cursor: not-allowed;
+    background-color: #f9f9f9;
+}
 /* image on card dimensions */
 .productImg{
     height: 80%;
