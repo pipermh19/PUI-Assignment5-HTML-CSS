@@ -103,7 +103,6 @@ li.shopDropDown {
 #bottomNav{
     display: flex;
     background-color: #858585;
-    height: 10vh;
     justify-content: space-between;
     margin-top: 5rem;
     width: 100%;
