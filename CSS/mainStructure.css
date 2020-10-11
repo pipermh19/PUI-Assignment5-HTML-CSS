@@ -26,7 +26,11 @@ a{
 }
 /* logo */
 #websiteLogo{
-    width: 18%;
+    width: 14%;
+    height: 100%;
+}
+#logo{
+    padding: 0 1rem;
 }
 #topNavLogo{
     display: flex;
