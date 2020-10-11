@@ -114,10 +114,10 @@ li.shopDropDown {
  display: flex;
 }
 #photoCredWords{
+    color: #bfbfbf;
+    font-size: 13px;
     margin-top: 2rem;
     margin-left: 1rem;
-    font-size: 13px;
-    color: #bfbfbf;
 }
 .bottomNavContainer{
     display: flex;
